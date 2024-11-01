@@ -1,0 +1,150 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .remove-button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.8em;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff1a1a;
+  }
+  /* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #7A7E82;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-family: "Tiny5", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .task-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #add-task {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3D3D3D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #add-task:hover {
+    background-color: #45a049;
+  }
+  
+  ul#task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-text {
+    flex: 1;
+  }
+  
+  .remove-button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.8em;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  /* Back to Timer Button */
+  .button-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button-link:hover {
+    background-color: rgb(47, 46, 46);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .task-form {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .task-form input[type="text"],
+    #add-task {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    .remove-button {
+      padding: 5px;
+      font-size: 0.7em;
+    }
+  
+    .button-link {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }

@@ -1,0 +1,157 @@
+.container{
+  padding-top: 250px;
+}
+body{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:2px dotted (96, 139, 168) ;
+  line-height: 7px;
+}
+h1{
+  font-size: 70px;
+    text-align:center;
+    color: aliceblue;
+}
+
+.settings {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px dotted (96, 139, 168) ;
+    color: aliceblue;
+    gap: 30px;
+    line-height: 50px;
+  }
+  .settings div{
+    width: 100px;
+    height: 100px;
+
+  }
+  
+  .settings label {
+    font-size: 0.9em;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .settings input {
+    width: 60px;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 1em;
+    
+  }
+  button{
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#d3cce3,#9b7aca);
+    background-color: #
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px; /* Limits the maximum width */
+    text-align: center;
+    background: rgb(18, 16, 16);
+    padding: 40px 20px;
+    border-radius: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #b09797;
+    font-size: 1.8em;
+  }
+  
+  .settings label {
+    font-size: 0.9em;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .settings input {
+    width: 60px;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 1em;
+  }
+  
+  #timer-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 80px;
+    margin: 5px; /* Adds space around buttons */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 600px) {
+    .container {
+      padding: 30px 15px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    #timer-display {
+      font-size: 2.5em;
+    }
+  
+    .buttons {
+      gap: 5px;
+    }
+  
+    button {
+      padding: 8px 15px;
+      font-size: 0.9em;
+      min-width: 70px;
+    }
+  }
+  
