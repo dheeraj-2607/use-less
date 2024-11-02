@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Countdown</title>
+  <link rel="stylesheet" href="countdown.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Itim&family=Kablammo&family=Spicy+Rice&family=Tiny5&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DotGothic16&family=Itim&family=Kablammo&family=Spicy+Rice&family=Tiny5&display=swap" rel="stylesheet"></head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DotGothic16&family=Itim&family=Kablammo&family=Spicy+Rice&family=Tiny5&family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DotGothic16&family=Itim&family=Kablammo&family=Spicy+Rice&family=Tilt+Neon&family=Tiny5&family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DotGothic16&family=Itim&family=Kablammo&family=Pixelify+Sans:wght@400..700&family=Spicy+Rice&family=Tilt+Neon&family=Tiny5&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="gif-container" style="display: none;">
+    <div class="tenor-gif-embed" data-postid="18132843" data-share-method="host" data-aspect-ratio="1.25" data-width="100%">
+        <a href="https://tenor.com/view/cat-gif-18132843">Cat GIF</a> from 
+        <a href="https://tenor.com/search/cat-gifs">Cat GIFs</a>
+    </div>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+</div>
+  <div id="break-gif" style="display: none;">
+    <img src="" alt="Break GIF">
+</div>
+  <div class="background-animation"></div>
+  <div class="container">
+    <h1>"HEY HUMAN, TIMER IS WATCHING YOU!"</h1>
+    <div id="timer-display">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+    <div class="buttons">
+      <button id="start-stop">STOP</button>
+      <a href="/index.html">
+      <button id="reset">RESET</button></a>
+  </div>
+  <div id="quote-display"></div>
+  </div>
+  <script src="quotes.js"></script>
+  <script src="countdown.js"></script>
+  <script src="compliments.js"></script>
+  <script src="background.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
