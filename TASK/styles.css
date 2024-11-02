@@ -17,7 +17,6 @@
   .remove-button:hover {
     background-color: #ff1a1a;
   }
-  /* Basic Styling */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -103,7 +102,6 @@ body {
     background-color: #ff1a1a;
   }
   
-  /* Back to Timer Button */
   .button-link {
     display: inline-block;
     margin-top: 20px;
@@ -120,7 +118,6 @@ body {
     background-color: rgb(47, 46, 46);
   }
   
-  /* Responsive Design */
   @media (max-width: 600px) {
     .container {
       padding: 15px;
