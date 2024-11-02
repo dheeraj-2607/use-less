@@ -14,7 +14,7 @@
 ### Project Description
 Funny Promodoro Timer which is usefully useless and distractive.
 Timers are used for being productive and formal 
-[OG link:](http://127.0.0.1:3000/index.html)
+
 
 
 
@@ -53,7 +53,7 @@ First interface
 Interface after start
 ![Screenshot (4)](https://github.com/user-attachments/assets/52423622-1319-4a3b-8721-508177c2ac92)
 Interface of Task manager
-
+[link](http://127.0.0.1:3000/index.html)
 
 ## Team Contributions
 - Dheeraj A G:created user interfaces.
