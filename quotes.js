@@ -30,5 +30,4 @@ function showCompliment() {
     alert(randomCompliment);
 }
 
-// Set an interval to show a compliment every 2 minutes (120000 milliseconds)
 setInterval(showCompliment, 120000);
